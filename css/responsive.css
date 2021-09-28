@@ -1,0 +1,159 @@
+body{
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+@media (max-width: 1250px){
+    .fixed-container {
+        width: 100%;
+        margin: 0px auto;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 17px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+    .video-section .main-video {
+        width: 38%;
+        margin-left: 24px;
+    }
+    .video-text {
+        width: 52%;
+        float: right;
+        margin-right: 26px;
+    }
+    .video-text p {
+        font-size: 15px;
+    }
+    .video-text h1 {
+        line-height: 46px;
+        font-size: 30px;
+    }
+}
+@media (max-width: 1120px){
+.header-logo .logo {
+margin-top: 9px;
+}
+.header-logo .logo a img {
+	width: 43px;
+	
+}
+.header-logo .logo a span {
+font-size: 21px;
+}
+}
+
+@media (max-width: 1010px){
+    .bannar {
+        background-position: inherit;
+    }
+}
+
+.header-menu nav span {
+    display: none;
+}
+
+@media(max-width: 992px){
+    .video-text {
+        width: 100%;
+        margin-right: 0;
+    }
+    .video-section .main-video {
+        width: 100%;
+        margin-left: 0;
+    }
+    .video-text h1 {
+        margin-top: 21px;
+    }
+    .video-text p {
+        margin-top: 19px;
+    }
+    .video-text {
+        padding: 0px 0px;
+    }
+}
+@media (max-width: 900px){
+    .header-menu nav ul {
+        display: none;
+    }
+    header .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-menu nav span {
+        font-size: 30px;
+        display: block;
+        margin-top: 7px;
+        margin-left: 5px;
+        color: #6278df;
+    }
+    .header-logo .logo a img {
+        width: 43px;
+	float: none;
+    }
+    .header-logo .logo a span {
+        display: inline-block;
+        position: relative;
+        top: -15px;
+    }
+    .header-menu nav {
+        position: relative;
+        left: -82px;
+    }
+    header .header-menu {
+        width: 81%;
+    }
+    header .header-button {
+        width: 17%;
+    }
+    .header-button .defult-btn {
+        margin-top: 0;
+    }
+}
+@media(max-width:800px){
+    .service-title h1 {
+        font-size: 35px;
+        margin-bottom: 16px;
+        font-weight: normal;
+    }
+}
+@media(max-width:763px) {
+    .header-button .defult-btn {
+        padding: 4px 11px;
+        font-size: 16px;
+        border-radius: 6px;
+    }
+    .header-menu nav span {
+        font-size: 25px;
+    }
+    .header-logo .logo a span {
+        font-size: 18px;
+    }
+    .header-logo .logo a img {
+        width: 39px;
+        margin-right: 3px;
+    }
+ 
+}
+@media(max-width:610px){
+    header .header-button {
+        width: 39%;
+    }
+    header .header-menu {
+        width: 61%;
+    }
+
+}
+@media(max-width:576px){
+    .bannar .bannar-text .defult-btn {
+        display: block;
+    }
+    .bannar .bannar-text h1 {
+        font-size: 38px;
+        margin: 21px 0px;
+    }
+    .bannar .bannar-text h4 {
+        font-size: 19px;
+    }
+}
